@@ -1,9 +1,9 @@
 [info]
 title=TreeHelper for textile format
-desc=TreeHelper for CudaTree, adds support for textile lexer
+desc=TreeHelper for CudaTree, adds support for Textile lexer
 type=cudatext-plugin
 subdir=cuda_tree_textile
-homepage=https://github.com/medvosa/cuda_tree_rest
+homepage=https://github.com/medvosa/cuda_tree_textile
 
 [treehelper1]
 lexers=Textile
