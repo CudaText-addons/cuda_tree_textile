@@ -1,4 +1,4 @@
-TreeHelper for reStructuredText lexer.
+TreeHelper for Textile lexer.
 Requires plugin CudaTree to work.
 
 
