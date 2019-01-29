@@ -1,5 +1,5 @@
 [info]
-title=TreeHelper for textile format
+title=TreeHelper for Textile
 desc=TreeHelper for CudaTree, adds support for Textile lexer
 type=cudatext-plugin
 subdir=cuda_tree_textile
