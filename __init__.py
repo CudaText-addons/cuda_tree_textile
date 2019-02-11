@@ -11,10 +11,12 @@ def is_head(ln):
 
 def get_headers(filename, lines):
     '''
-    Generates Textile headers in format:
-    line_index, header_level, header_text
+    gets tuples in format
+    ((x1, y1, x2, y2), level, title, icon)
     '''
+    r = []
     for n,i in enumerate(lines):
         level=is_head(i)
         if level:
-            yield (n,level,i[3:])
+            r.append( ((0, n, 0, n+1), level, i[3:], -1) )
+    return r
